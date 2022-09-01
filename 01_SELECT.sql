@@ -68,7 +68,7 @@ FROM DUAL;
  * 
  * AS는 생략 가능
  * 
- * */
+ */
 
 SELECT SYSDATE-1 "하루 전", SYSDATE AS 현재시간, SYSDATE  + 1 내일
 FROM DUAL;
